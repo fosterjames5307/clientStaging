@@ -1,0 +1,314 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background:url(../_assets/symphony.png);
+	
+}
+
+header{
+	background:#fff;
+	height:100%;
+	width:20%;
+	border-right:#0C5F05 2px solid;
+	position:fixed;
+	
+}
+h1,h2, a{
+	color:#0C5F05;
+	text-align:center;
+	margin-top:10%;
+	text-decoration:none;
+	}
+h2{
+	border-bottom: 2px #0C5F05 solid;
+	}
+	h1{
+		font-size:150%;
+	}
+	
+nav{
+ margin-left:-10px;
+}
+nav ul{
+	list-style:none;
+	
+	
+}
+nav a{
+	color:#fff;
+	text-decoration:none;
+	
+}
+nav ul li{
+	background:#0C5F05;
+	padding-top:10px;
+	margin-bottom:15px;
+	width:100%;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size:1.5em;
+	height:70px;
+	border:1px solid #fff;
+	margin-left:0;
+}
+
+nav ul li:hover{
+	background:#009F0E;
+	border: 1px solid #0C5F05;
+	color:#000;
+	
+}
+
+.carousel{
+	float:right;
+	position:absolute;
+	
+	}
+
+
+.carousel-item img {
+width:700px;
+	height:700px;
+display: block;
+border:2px #0C5F05 solid;
+}
+wrapper{
+	position:absolute;
+	top:20%;
+	left:30%;
+}
+
+.wrapper{
+	margin-left:35%;
+	position:absolute;
+	z-index:-999;
+}
+.wrapper li{
+	list-style:none;
+	float:left;
+}
+
+footer{
+	position:fixed;
+	background:#fff;
+	bottom:0;
+	height:5%;
+	width:100%;
+	z-index:-1;
+	}
+footer p{
+	position:fixed;
+	right:5%;
+	bottom:1%;
+	
+
+}
+footer a{
+	position:relative;
+	float:right;
+	text-decoration:none;
+	text-align:center;
+}
+.topHeader{
+    margin-left:5%;
+	position:fixed;
+	  top:0;
+		width:90%;
+	z-index:-5;
+	background:url(../_assets/forest.jpg)  no-repeat;
+	height:200px;
+	background-size:cover;
+	text-align:center;
+}
+.topHeader h1{
+	top:3%;
+	color:#fff;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	border-bottom:#fff 1px solid;
+	font-size:2.3em;
+	background:hsla(146,89%,18%,0.47);
+	
+	}
+	
+.deliverable1 img{
+	margin-top:40%;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(12,95,5,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(12,95,5,1);
+box-shadow: 10px 10px 5px 0px rgba(12,95,5,1);
+
+}
+.deliverable img{
+		margin-top:100%;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(12,95,5,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(12,95,5,1);
+box-shadow: 10px 10px 5px 0px rgba(12,95,5,1);
+}
+.deliverable ul{
+	
+	list-style:none;
+		
+}
+.deliverable li{
+	float:left;
+	margin:5%;
+	padding-left:10px;
+}
+.deliverable img{
+	width:250px;
+	height:300px;
+}
+.buttonA{
+	background:#0C5F05;
+	width:200px;
+	height:30px;
+	color:#fff; 
+	padding:15px;
+	text-align:center;
+	position:absolute;
+	top:50%;
+	left:5%
+}
+.buttonA:hover{
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(12,95,5,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(12,95,5,1);
+box-shadow: 10px 10px 5px 0px rgba(12,95,5,1);
+}
+.processGallery{
+	width:100%;
+	background:#fff;
+	width:auto;
+}
+.processGallery a,li{
+	margin:0;
+	padding:0;
+}
+
+.prototypeWrapper{
+	position:absolute;
+	top:30%;
+	left:30%;
+}
+.prototypeWrapper a{
+	width:200px;
+	height:auto;
+	padding-left:10%;
+	background:#fff;
+	font-size:3em;
+	position:relative;
+	float:left;
+}
+.prototypeWrapper a:hover{
+	color:#000;
+	font-size:5em;
+	
+}
+.fa{
+	font-size:7em;
+}
+.fa-mobile{
+	font-size:10em;
+}
+.overview{
+	position:absolute;
+	left:0;
+	top:30%;
+	width:60%;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.deliverable2{
+	position:absolute;
+	top:30%;
+	left:20%;
+	z-index:-800;
+	
+}
+.process ul{
+	
+}
+.process li{
+	padding:50px;
+	float:left;
+	background:#fff;
+	margin:10px;
+	list-style:none;
+	
+}
+@media screen and (min-width:320px) and (max-width:500px){
+	header{
+	background:hsla(0,0%,100%,0.60) url(../_assets/forest.jpg);
+	background-size:cover;
+	height:auto;
+	width:100%;
+	border-right:#0C5F05 2px solid;
+	position:fixed;
+	top:0;
+	
+}
+h1,h2{
+	color:#000;
+	background:hsla(0,0%,100%,.50);
+	text-align:center;
+	margin-top:5%;
+	text-decoration:none;
+	}
+h2{
+	border:none;
+	font-size:70%;
+	float:right;
+	}
+	h1{
+		font-size:100%;
+	}
+	
+nav{
+	display:inline;
+ margin-left:0;
+}
+nav ul{
+	list-style:none;
+	float:left;
+	
+	
+}
+nav a{
+	color:#fff;
+	text-decoration:none;
+	
+}
+nav li{
+	position:relative;
+	float:left;
+}
+nav ul li{
+	background:#0C5F05;
+	padding-top:0px;
+	margin-bottom:15px;
+	width:100%;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size:.8em;
+	height:50px;
+	width:50px;
+	border:1px solid #fff;
+	margin-left:0;
+}
+.carousel{
+	float:right;
+	position:absolute;
+	
+	}
+
+
+.carousel-item img {
+width:300px;
+	height:300px;
+display: block;
+border:2px #0C5F05 solid;
+}
+wrapper{
+	left:10%;
+	top:40%;
+}
+.topHeader{
+	visibility:hidden;
+}
+}
